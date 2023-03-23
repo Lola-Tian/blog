@@ -1,5 +1,5 @@
 ---
-title: 'Git cz提交'
+title: 'Git cz提交设置'
 sidebar: auto
 tags:
  - 
