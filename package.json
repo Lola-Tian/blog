@@ -6,13 +6,15 @@
     "scripts": {
         "dev": "vuepress dev docs",
         "build": "vuepress build docs",
-        "deploy": "bash deploy.sh"
+        "deploy": "gh-pages -d dist -r https://github.com/Lola-Tian/blog.git -b gh-pages"
     },
     "keywords": [],
     "author": "",
     "license": "ISC",
     "devDependencies": {
+        "gh-pages": "^5.0.0",
         "vuepress": "^1.9.9",
         "vuepress-theme-reco": "^1.6.17"
-    }
+    },
+    "dependencies": {}
 }
